@@ -7,7 +7,15 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <!-- <h4>Canvas <span id="coords"></span></h4> -->
+      <div class="canvasCont">
+        <canvas id="turtlecanvas" width="700" height="700"></canvas>
+        <canvas id="imagecanvas" width="700" height="700" style="display:none"></canvas>
+      </div>
+      <!-- <span id="message" class="message-hide">Coordinates has been copied to clipboard</span> -->
+       <button id="actionButton">Mostrar sorpresa</button>
+    </div>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
